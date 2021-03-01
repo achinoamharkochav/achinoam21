@@ -17,4 +17,60 @@ body {
   font-family: 'opensans', arial, sans-serif;
   line-height: 1.5;
   color: #a96767;
+  background: #fff;
+  font-size: 20px;
 }
+img{
+max-width: 100%;
+    width: auto;
+    height: auto;
+}
+h1{
+font-size: 80xp;
+font-family: שם הפונט
+font weight: 400;
+}
+h1:after {
+  content: "";
+  border-bottom: 3px solid #fff;
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+h1:after {
+  content: "";
+  background: url(img/line.png) no-repeat;
+  background-size: contain;
+  height: 30px;
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+h2:after {
+  content: "";
+  border-bottom: 3px solid #c7a17a;
+  width: 80px;
+  display: block;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(לשים פה את התמונה שלי);
+  background-position: center 40%;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+}
+.button {
+  text-decoration: none;
+  color: #000;
+  background: #c7a17a;
+  padding: 10px 40px;
+  display: inline-block;
+}
+.button:hover{
+  background: #30271c;
+  color: #fff;
+}
+
+
