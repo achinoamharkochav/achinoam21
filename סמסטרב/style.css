@@ -1,22 +1,17 @@
 
 
 @font-face {
-  font-family: 'opensans';
-  src: url('fontim/opensans/400/opensanshebrew-regular.woff') format('woff');
+  font-family: 'DanaYad';
+  src:
+url('fontim :danaYad\400\DanaYadAlef-Normal.woff') format('woff');
   font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'opensans';
-  src: url('fontim/opensans/700/opensanshebrew-bold.woff') format('woff');
-  font-weight: 700;
   font-style: normal;
 }
 body {
   margin: 0;
-  font-family: 'opensans', arial, sans-serif;
+  font-family:'DanaYad', arial, sans-serif;
   line-height: 1.5;
-  color: #a96767;
+  color: #ba124f;
   background: #fff;
   font-size: 20px;
 }
@@ -27,43 +22,43 @@ max-width: 100%;
 }
 h1{
 font-size: 80xp;
-font-family: שם הפונט
-font weight: 400;
+font-family:'dana-yad';
+font width: 400;
+color: #fff;
+
 }
 h1:after {
   content: "";
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ba124f;
   width: 80px;
   display: block;
   margin: auto;
+color: #fff;
 }
 h1:after {
   content: "";
-  background: url(img/line.png) no-repeat;
+  background: url() no-repeat;
   background-size: contain;
   height: 30px;
   max-width: 300px;
   display: block;
   margin: auto;
 }
-h2:after {
-  content: "";
-  border-bottom: 3px solid #c7a17a;
-  width: 80px;
-  display: block;
+h2{
+    color: #fff;
 }
 
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(לשים פה את התמונה שלי);
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('tmonot/b1.jpg');
   background-position: center 40%;
   background-size: cover;
   text-align: center;
-  padding: 50px 0;
+  padding: 120px 0;
 }
 .button {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   background: #c7a17a;
   padding: 10px 40px;
   display: inline-block;
@@ -72,5 +67,22 @@ h2:after {
   background: #30271c;
   color: #fff;
 }
-
+.logo {
+  max-width: 100px;
+  display: block;
+  margin: 5px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  grid-gap: 100px;
+line-height: 1.1;
+padding: 30px;
+}
+.div1{
+color:#ba124f; 
+}
 
