@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'DanaYad';
   src:
-url('fontim :danaYad\400\DanaYadAlef-Normal.woff') format('woff');
+url(fontim/dana-yad/400/DanaYadAlefAlefAlef-Normal.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -37,7 +37,7 @@ color: #fff;
 }
 h1:after {
   content: "";
-  background: url() no-repeat;
+  background: url(fontim/dana-yad/400/DanaYadAlefAlefAlef-Normal.woff) no-repeat;
   background-size: contain;
   height: 30px;
   max-width: 300px;
