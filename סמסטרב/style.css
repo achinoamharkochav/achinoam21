@@ -1,17 +1,29 @@
 
 
 @font-face {
-  font-family: 'DanaYad';
+  font-family: 'dana-yad';
   src:
 url(fontim/dana-yad/400/DanaYadAlefAlefAlef-Normal.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: 'carmelit';
+  src:
+url(fontim/carmelit/400/carmelitregular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'carmelit';
+  src:
+url(fontim/carmelit/700/carmelitregular.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
 body {
   margin: 0;
-  font-family:'DanaYad', arial, sans-serif;
   line-height: 1.5;
-  color: #ba124f;
   background: #fff;
   font-size: 20px;
 }
@@ -22,22 +34,22 @@ max-width: 100%;
 }
 h1{
 font-size: 80xp;
-font-family:'dana-yad';
+font-family:;
 font width: 400;
 color: #fff;
 
 }
 h1:after {
   content: "";
-  border-bottom: 3px solid #ba124f;
-  width: 80px;
+  border-bottom: 3px solid #fff;
+  width: 200px;
   display: block;
   margin: auto;
 color: #fff;
 }
 h1:after {
   content: "";
-  background: url(fontim/dana-yad/400/DanaYadAlefAlefAlef-Normal.woff) no-repeat;
+  background: url() no-repeat;
   background-size: contain;
   height: 30px;
   max-width: 300px;
@@ -45,30 +57,76 @@ h1:after {
   margin: auto;
 }
 h2{
-    color: #fff;
+    color: #000;
+    font-family: 'carmelit';
+   font-size: 15px;
+    grid: 200px;
 }
-
+h3{
+    color: #d50a51;
+    font-family: 'dana-yad';
+       font-size: 20px;
+}
+h4{
+color: #000;
+font-family: 'carmelit';
+}
+h5{
+color: #fff;
+font-family:'dana-yad'; 
+   font-size: 40px;
+}
+h6{
+    color: #d50a51;
+    font-family: 'dana-yad';
+       font-size: 30px;
+}
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('tmonot/b1.jpg');
+ url('tmonot/%D7%AA%D7%9E%D7%95%D7%A0%D7%94.jpg');
   background-position: center 40%;
   background-size: cover;
   text-align: center;
   padding: 120px 0;
 }
 .button {
+  color: #fff;
   text-decoration: none;
-  color: #fff;
-  background: #c7a17a;
-  padding: 10px 40px;
+  border: 3px solid #000;
+  padding: 14px 20px;
   display: inline-block;
+  margin-top: 20px;
+transition: .3s;
+border-radius: 5px;
+margin-bottom: auto;
+font-family: 'dana-yad';
+ background: #d50a51;
 }
-.button:hover{
-  background: #30271c;
+.button:hover {
+background: #fff;
+  color: #d50a51;
+font-family: 'dana-yad';
+}
+.button1 {
   color: #fff;
+  text-decoration: none;
+  border: 3px solid #000;
+  padding: 14px 20px;
+  display: inline-block;
+  margin-top: 20px;
+transition: .3s;
+border-radius: 5px;
+margin-bottom: auto;
+font-family: 'dana-yad';
+ background: #d50a51;
+}
+.button1:hover {
+background: #fff;
+color: #d50a51;
+font-family: 'dana-yad';
 }
 .logo {
-  max-width: 100px;
+  max-width: 200px;
   display: block;
   margin: 5px auto;
   margin-top: 20px;
@@ -80,9 +138,38 @@ h2{
   align-items: center;
   grid-gap: 100px;
 line-height: 1.1;
-padding: 30px;
+padding: 50px;
 }
 .div1{
-color:#ba124f; 
+color:#000; 
 }
-
+.container {
+background-position: center 40%;
+  background-size: cover;
+  text-align: center;
+  padding: 30px 0;
+}
+.features{
+background: #fff;
+text-align: center;
+}
+.features ul{
+list-style: none;
+padding: 0;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr
+1fr; 
+grid-gap: 30px;
+}
+.features img{
+max-width: 100px;
+}
+.lemata{
+display: grid;
+align-items: center;
+grid-gap: auto;
+line-height: 1.1
+background-size: cover;
+text-align: center;
+}
+ 
