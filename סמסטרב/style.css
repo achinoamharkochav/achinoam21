@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: 'dana-yad';
   src:
@@ -8,17 +6,10 @@ url(fontim/dana-yad/400/DanaYadAlefAlefAlef-Normal.woff) format('woff');
   font-style: normal;
 }
 @font-face {
-  font-family: 'carmelit';
+  font-family: 'carmela';
   src:
-url(fontim/carmelit/400/carmelitregular.woff) format('woff');
+url(fontim/carmela/400/carmela.woff) format('woff');
   font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'carmelit';
-  src:
-url(fontim/carmelit/700/carmelitregular.woff) format('woff');
-  font-weight: 700;
   font-style: normal;
 }
 body {
@@ -26,6 +17,7 @@ body {
   line-height: 1.5;
   background: #fff;
   font-size: 20px;
+    color: 000;
 }
 img{
 max-width: 100%;
@@ -33,66 +25,37 @@ max-width: 100%;
     height: auto;
 }
 h1{
-font-size: 80xp;
-font-family:;
-font width: 400;
 color: #fff;
-
-}
-h1:after {
-  content: "";
-  border-bottom: 3px solid #fff;
-  width: 200px;
-  display: block;
-  margin: auto;
-color: #fff;
-}
-h1:after {
-  content: "";
-  background: url() no-repeat;
-  background-size: contain;
-  height: 30px;
-  max-width: 300px;
-  display: block;
-  margin: auto;
+font-family:'dana-yad'; 
+   font-size: 30px;
 }
 h2{
-    color: #000;
-    font-family: 'carmelit';
-   font-size: 15px;
-    grid: 200px;
+    color: #d50a51;
+    font-family: 'dana-yad';
+       font-size: 30px;
 }
 h3{
     color: #d50a51;
     font-family: 'dana-yad';
        font-size: 20px;
 }
-h4{
+p{
 color: #000;
-font-family: 'carmelit';
+font-family: 'carmela';
+font-size: 18px;
 }
-h5{
-color: #fff;
-font-family:'dana-yad'; 
-   font-size: 40px;
-}
-h6{
-    color: #d50a51;
-    font-family: 'dana-yad';
-       font-size: 30px;
-}
-.banner {
+.banner{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
  url('tmonot/%D7%AA%D7%9E%D7%95%D7%A0%D7%94.jpg');
   background-position: center 40%;
   background-size: cover;
   text-align: center;
-  padding: 120px 0;
+  padding: 20px;
 }
 .button {
   color: #fff;
   text-decoration: none;
-  border: 3px solid #000;
+  border: 3px solid #d50a51;
   padding: 14px 20px;
   display: inline-block;
   margin-top: 20px;
@@ -110,7 +73,7 @@ font-family: 'dana-yad';
 .button1 {
   color: #fff;
   text-decoration: none;
-  border: 3px solid #000;
+  border: 3px solid #d50a51;
   padding: 14px 20px;
   display: inline-block;
   margin-top: 20px;
@@ -143,12 +106,6 @@ padding: 50px;
 .div1{
 color:#000; 
 }
-.container {
-background-position: center 40%;
-  background-size: cover;
-  text-align: center;
-  padding: 30px 0;
-}
 .features{
 background: #fff;
 text-align: center;
@@ -159,17 +116,44 @@ padding: 0;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr
 1fr; 
-grid-gap: 30px;
+grid-gap: 5px;
 }
 .features img{
 max-width: 100px;
 }
-.lemata{
-display: grid;
-align-items: center;
-grid-gap: auto;
-line-height: 1.1
-background-size: cover;
-text-align: center;
+.banner1 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+ url('tmonot/reka3.jpg');
+  background-position: center 40%;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}  
+.button2 {
+  color: #d50a51;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+  margin-top: 20px;
+transition: .3s;
+border-radius: 5px;
+margin-bottom: auto;
+font-family: 'dana-yad';
+ background: #fff;
 }
+.button2:hover {
+background: #000;
+  color: #fff;
+font-family: 'dana-yad';
+}
+.container{
+max-width: 1500px;
+margin: auto;
+text-align: center;
+margin-right: 80px;
+margin-left: 80px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
  
