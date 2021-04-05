@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'dana-yad';
+  src:
+url(fontim/dana-yad/400/DanaYadAlefAlefAlef-Normal.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'carmela';
+  src:
+url(fontim/carmela/400/carmela.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  line-height: 1.5;
+  background: #fff;
+  font-size: 20px;
+    color: 000;
+}
+img{
+max-width: 100%;
+    width: auto;
+    height: auto;
+}
+h1{
+color: #fff;
+font-family:'dana-yad'; 
+   font-size: 30px;
+}
+h2{
+    color: #d50a51;
+    font-family: 'dana-yad';
+       font-size: 30px;
+}
+h3{
+    color: #d50a51;
+    font-family: 'dana-yad';
+       font-size: 20px;
+}
+p{
+color: #000;
+font-family: 'carmela';
+font-size: 18px;
+}
+.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+ url('tmonot/%D7%AA%D7%9E%D7%95%D7%A0%D7%94.jpg');
+  background-position: center 40%;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}
+.button {
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid #d50a51;
+  padding: 14px 20px;
+  display: inline-block;
+  margin-top: 20px;
+transition: .3s;
+border-radius: 5px;
+margin-bottom: auto;
+font-family: 'dana-yad';
+ background: #d50a51;
+}
+.button:hover {
+background: #fff;
+  color: #d50a51;
+font-family: 'dana-yad';
+}
+.button1 {
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid #d50a51;
+  padding: 14px 20px;
+  display: inline-block;
+  margin-top: 20px;
+transition: .3s;
+border-radius: 5px;
+margin-bottom: auto;
+font-family: 'dana-yad';
+ background: #d50a51;
+}
+.button1:hover {
+background: #fff;
+color: #d50a51;
+font-family: 'dana-yad';
+}
+.logo {
+  max-width: 200px;
+  display: block;
+  margin: 5px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  grid-gap: 100px;
+line-height: 1.1;
+padding: 50px;
+}
+.div1{
+color:#000; 
+}
+.features{
+background: #fff;
+text-align: center;
+}
+.features ul{
+list-style: none;
+padding: 0;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr
+1fr; 
+grid-gap: 5px;
+}
+.features img{
+max-width: 100px;
+}
+.banner1 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+ url('tmonot/reka3.jpg');
+  background-position: center 40%;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}  
+.button2 {
+  color: #d50a51;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+  margin-top: 20px;
+transition: .3s;
+border-radius: 5px;
+margin-bottom: auto;
+font-family: 'dana-yad';
+ background: #fff;
+}
+.button2:hover {
+background: #000;
+  color: #fff;
+font-family: 'dana-yad';
+}
+.container{
+max-width: 1500px;
+margin: auto;
+text-align: center;
+margin-right: 80px;
+margin-left: 80px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+ 
