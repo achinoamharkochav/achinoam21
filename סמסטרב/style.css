@@ -128,7 +128,10 @@ max-width: 100px;
   background-position: center 40%;
   background-size: cover;
   text-align: center;
-  padding: 20px;
+  padding: 20px;   
+}
+footer a{
+    color: #000;
 }  
 .button2 {
   text-decoration: none;
@@ -153,6 +156,8 @@ nav ul {
   display: flex;
   justify-content: center;
     justify-content: space-around;
+    max-width: 800px;
+    margin: auto;
     
 }
 nav a{
@@ -163,4 +168,6 @@ text-decoration: none;
     font-size: 15px;
     
 }
-
+.current a{
+font-weight:700;
+}
