@@ -17,8 +17,7 @@ body {
   line-height: 1.5;
   background: #fff;
   font-size: 20px;
-    color: 000;
-    font-family:'dana-yad', 'carmela'; 
+    font-family:'carmela'; 'sans-serif';
 }
 img{
 max-width: 300%;
@@ -39,11 +38,6 @@ h3{
     color: #d50a51;
     font-family: 'dana-yad';
        font-size: 20px;
-}
-p{
-color: #000;
-font-family: 'carmela';
-font-size: 25px;
 }
 .banner{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
@@ -73,7 +67,6 @@ font-family: 'dana-yad';
 }
 .button1 {
   color: #fff;
-  text-decoration: none;
   border: 3px solid #d50a51;
   padding: 14px 20px;
   display: inline-block;
@@ -122,23 +115,20 @@ grid-gap: 5px;
 .features img{
 max-width: 100px;
 }
-.banner1 {
+.footer {
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
  url('tmonot/reka3.jpg');
   background-position: center 40%;
   background-size: cover;
   text-align: center;
-  padding: 20px;   
-}
-footer a{
-    color: #000;
+  padding: 20px;
+  color: #fff;
 }  
 .button2 {
-  text-decoration: none;
   display: inline-block;
   margin-top: 20px;
-font-family: ;
-    color: #000;
+font font-size: 15;
+    color: #fff;
 }
 .container{
 max-width: 1000px;
@@ -170,4 +160,33 @@ text-decoration: none;
 }
 .current a{
 font-weight:700;
+}
+.menu.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('tmonot /basisslemala');
+}
+.price-list {
+  list-style: none;
+  padding: 0;
+  font-size: 24px;
+}
+.price-list li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.line {
+  flex:1;
+  border-bottom: 2px solid #d50a51;
+  height:1em;
+  margin: 0 5px;
+}
+.price {
+  font-weight: bold;
+}
+.price-list.container{
+color: #000;
+}
+.title{
+text-align: right;
 }
