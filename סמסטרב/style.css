@@ -190,9 +190,6 @@ nav a {
 
 }
 
-.current a {
-}
-
 .menu.banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('tmonot /basisslemala');
@@ -268,3 +265,10 @@ textarea {
 }
 
 span {}
+
+.current{
+border-bottom: 1px solid #fff;
+}
+.current:hover{
+text-align: center;
+}
