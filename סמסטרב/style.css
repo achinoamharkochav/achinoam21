@@ -24,25 +24,16 @@ body {
 }
 
 img {
-    max-width: 300%;
+    max-width: 100%;
     width: auto;
     height: auto;
 }
-
-h1,
-h2,
-h3,
-b,
-strong {
-    font-weight: 400;
-}
-
 h1 {
     color: #fff;
     font-family: 'dana-yad';
     font-size: 30px;
+    margin: auto;
 }
-
 h2 {
     color: #d50a51;
     font-family: 'dana-yad';
@@ -83,6 +74,8 @@ h3 {
     background: #fff;
     color: #d50a51;
     font-family: 'dana-yad';
+    text-align: center;
+    margin: auto;
 }
 
 .button1 {
@@ -128,6 +121,7 @@ h3 {
 .features {
     background: #fff;
     text-align: center;
+  
 }
 
 .features ul {
@@ -136,6 +130,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
+    margin: 20;
 }
 
 .features img {
@@ -167,7 +162,6 @@ h3 {
 }
 
 header {
-    text-align: center;
 }
 
 nav ul {
@@ -218,11 +212,19 @@ nav a {
 .price-list.container {
     color: #000;
 }
-
-.title {
-    text-align: right;
+.price-list .title{
+color: black;
+}
+.title{
+text-align: right;
+color: #794949;
+}
+textarea{
+height: 220px;
+   
 }
 
+}
 .features1 {
     background: #fff;
     text-align: center;
@@ -237,6 +239,8 @@ nav a {
     margin: 0;
     color: #000;
     line-height: 0.5;
+   text-align: center;
+
 }
 
 .features1 img {
@@ -245,30 +249,48 @@ nav a {
 
 label {
     margin-bottom: 20px;
+    text-align: right;
 }
 
 form {
     width: 350px;
     margin: auto;
     line-height: 2;
+    text-align: right;
 }
-
-input,
-textarea {
+input,textarea {
     font: inherit;
     color: inherit;
     display: block;
-    border: 2px solid #000;
+    border: 2px solid #000; 
     padding: 5px;
     width: 100%;
     box-sizing: border-box;
 }
-
-span {}
-
+.input,textarea :hover{
+text-align: center;
+border: 2px solid #d50a51; 
+}
+input:focus,
+textarea:focus{
+    outline: 0;
+    border-color: #d50a51; 
+}
+.banner{
+border-bottom: 1px solid #fff;
+}
+.banner: hover{
+text-decoration: none;
+}
 .current{
 border-bottom: 1px solid #fff;
 }
-.current:hover{
-text-align: center;
+.span{
+text-align: right;
+}
+input.button{
+    
+}
+.textarea{
+    padding: 20px;
 }
